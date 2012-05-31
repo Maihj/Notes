@@ -20,3 +20,7 @@ To understand how to use the embedded security subsystem(TPM) built into many co
 1.Public key authentication functions.<br />
 2.Integrity measurement functions.<br />
 3.Attestation functions.<br />
+
+#####Special Consideration for Hardware#####
+1.Privacy: keeping private data under control even after it has been given to an outside group.<br />
+2.Key recovery: key movement functions.
