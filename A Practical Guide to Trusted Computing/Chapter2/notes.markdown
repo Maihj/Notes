@@ -19,4 +19,11 @@
 2.Storing asymmetric keys.<br />
 <br />
 3.Authorization.<br />
+The user enters a passward, authorized by the parent key, and then the parent key loads the child key, which stores the user's other keys. No further passwords are required to load other keys.<br />
+<br />
+migration of keys: the spilt authorization design.<br />
+<br />
+######Secure signatures######
+Migratable keys: less secure(exposed)<br />
+Non-migratable keys: identify the platform on which they are being used<br />
 <br />
